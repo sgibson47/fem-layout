@@ -31,13 +31,97 @@ div img {
 }
 
 /* grid system -- mobile first! */
+.row{
+	clear: both;
+}
 
+article{
+	float: left; 
+	width: 92%;
+	margin-left: 4%;
+}
+
+.quarters{
+	background-color: aqua;
+}
+
+.halves{
+	background-color: palevioletred;
+}
+
+.left{
+	background-color: palegreen;
+}
+
+.right{
+	background-color: palegreen;
+}
+
+.whole{
+	background-color: paleturquoise;
+}
 
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
+	.quarters{
+		width: 40%;
+		margin-left: 4%;
+		background-color: aqua;
+	}
 
+	.halves{
+		width: 92%;
+		margin-left: 4%;
+		background-color: palevioletred;
+	}
+
+	.left{
+		width: 92%;
+		margin-left: 4%;
+		background-color: palegreen;
+	}
+
+	.right{
+		width: 92%;
+		margin-left: 4%;
+		background-color: palegreen;
+	}
+
+	.whole{
+		width: 92%;
+		margin-left: 4%;
+		background-color: paleturquoise;
+	}
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
+	.quarters{
+		width: 20%;
+		margin-left: 4%;
+		background-color: aqua;
+	}
 
+	.halves{
+		width: 44%;
+		margin-left: 4%;
+		background-color: palevioletred;
+	}
+
+	.left{
+		width: 22%;
+		margin-left: 4%;
+		background-color: palegreen;
+	}
+
+	.right{
+		width: 66%;
+		margin-left: 4%;
+		background-color: palegreen;
+	}
+
+	.whole{
+		width: 92%;
+		margin-left: 4%;
+		background-color: paleturquoise;
+	}
 }
